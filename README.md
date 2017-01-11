@@ -4,4 +4,5 @@
     v6.9.1
 ##代码状态
     持续更新中...
-
+##github url
+	https://github.com/excelsimon/bluebird-demo.git
