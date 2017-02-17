@@ -38,4 +38,11 @@ timeoutWithError()
     .catch((err) => {
         console.log("异步操作出现错误", err);
     });
-var resultWithError = timeoutWithError();
+//var resultWithError = timeoutWithError();
+//快速生成一个Promise
+//返回的成功的promise
+var resolvedPromise = Promise.resolve('成功的promise');
+//返回的错误的promise
+var rejectedPromise = Promise.reject(new Error('失败的promise'));
+
+//下面在调用.then方法就可以执行此promise了
